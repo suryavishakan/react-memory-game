@@ -1,0 +1,12 @@
+.card {
+  position: relative;
+}
+
+.front,
+.back {
+  width: 10rem;
+}
+
+.back {
+  border-radius: 10px;
+}

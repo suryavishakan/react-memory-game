@@ -26,8 +26,3 @@ button:hover {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
-
-.front,
-.back {
-  width: 10rem;
-}
