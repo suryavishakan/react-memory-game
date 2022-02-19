@@ -1,15 +1,17 @@
 import React from "react";
-import cardBackground from "../assets/back.jpg";
+import cardBackground from "../assets/cover.png";
 import "./Card.css";
 
-const Card = ({ card, handleChoice }) => {
+const Card = ({ card, handleChoice, flipped, disabled }) => {
   const handleClick = () => {
-    handleChoice(card);
+    if (!disabled && !flipped) {
+      handleChoice(card);
+    }
   };
 
   return (
     <div className="card">
-      <div>
+      <div className={flipped ? "flipped" : ""}>
         <img src={card.src} className="front" alt="card front" />
         <img
           src={cardBackground}

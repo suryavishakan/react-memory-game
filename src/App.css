@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
 .App {
   max-width: 860px;
   margin: 40px auto;
@@ -21,8 +23,15 @@ button:hover {
 }
 
 .card-grid {
-  margin-top: 40px;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
+}
+
+.turns {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
 }
