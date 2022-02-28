@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
+// styles
 import "./App.css";
+// images
 import helmet from "./assets/helmet-1.png";
 import potion from "./assets/potion-1.png";
 import ring from "./assets/ring-1.png";
@@ -9,6 +11,7 @@ import sword from "./assets/sword-1.png";
 import Card from "./components/Card";
 import Confetti from "react-confetti";
 
+// card images array
 const cardImages = [
   { src: helmet, matched: false },
   { src: potion, matched: false },
